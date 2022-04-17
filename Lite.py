@@ -8,7 +8,7 @@ import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
     from vp import _site_view_
-    print("\n Welcome to Aine Cloning Tool!\n")
+    print("\n Welcome to Aine Cloning Tool! \n Opps! Your ip Address Block \n")
     time.sleep(3)
     _site_view_()
 elif bit == '32bit':
